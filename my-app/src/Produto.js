@@ -8,7 +8,7 @@ const Produto = ({dados}) => {
         <h1>{dados?.nome}</h1>
         <p>Preço: {dados?.preco}</p>
 
-        <img src={dados?.fotos[1].src} alt={dados.fotos[0].titulo}></img>
+        <img src={dados?.fotos[0].src} alt={dados.fotos[0].titulo}></img>
     </div>
   )
 }
